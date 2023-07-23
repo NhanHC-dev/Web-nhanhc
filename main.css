@@ -1,0 +1,342 @@
+* {
+    font-family: "Nunito", sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  body {
+    background-color: #ffffff;
+    margin: 0 64px;
+    min-height: 100vh;
+  }
+  
+  h2,
+  h6,
+  h4,
+  p {
+    margin: 0;
+  }
+  
+  .first-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    height: 100vh;
+  }
+  
+  .illustration {
+    height: 60vh;
+    object-fit: contain;
+  }
+  
+  .headline {
+    font-family: "Caveat", cursive;
+    color: #515c70;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 24px 0;
+  }
+  
+  .tag-line {
+    margin: 0;
+    color: #515c70;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    height: 100%;
+    margin: auto;
+    width: 40%;
+  }
+  
+  hr.solid {
+    border-top: 1px solid #515c6f;
+    width: 100%;
+    opacity: 0.6;
+  }
+  
+  .background {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .head {
+    font-family: "Rubik", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 16px 0;
+    display: flex;
+  }
+  
+  .head-icon {
+    width: 28px;
+    margin-right: 13px;
+  }
+  
+  .job-section,
+  .education {
+    margin-top: 16px;
+    min-width: 50%;
+  }
+  
+  .job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20px;
+  }
+  
+  .company-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .phone-only {
+    display: none;
+  }
+  
+  .company-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  
+  .company-logo:hover+.company {
+    visibility: visible;
+  }
+  
+  .company-duration {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+  }
+  
+  .company {
+    margin: 0;
+    color: #515c6f;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    visibility: hidden;
+  }
+  
+  .time-period {
+    margin: 0;
+    color: #515c6f;
+    font-size: 12px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #515c70;
+    border-radius: 50%;
+  }
+  
+  .position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 64px;
+    margin-bottom: 12px;
+  }
+  
+  .position-duration {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+  
+  .title {
+    margin: 0;
+    color: #515c6f;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .row-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .flex-0-5 {
+    flex: 0.5;
+  }
+  
+  .jobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .job {
+    margin: 20px;
+  }
+  
+  .job-logo {
+    width: 220px;
+    height: 120px;
+    object-fit: contain;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .social {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  /* CSS */
+  .button-4 {
+    appearance: none;
+    background-color: #fafbfc;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+      rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+  
+  .button-4:hover {
+    background-color: #f3f4f6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  .button-4:disabled {
+    background-color: #fafbfc;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959da5;
+    cursor: default;
+  }
+  
+  .button-4:active {
+    background-color: #edeff2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  .button-4:focus {
+    outline: 1px transparent;
+  }
+  
+  .button-4:before {
+    display: none;
+  }
+  
+  .button-4:-webkit-details-marker {
+    display: none;
+  }
+  
+  @media (max-width: 767px) {
+    .first-page {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+  
+    .illustration {
+      width: 100%;
+      height: auto;
+    }
+  
+    .intro {
+      width: auto;
+      height: auto;
+      margin: 32px;
+      text-align: center;
+    }
+  
+    .job {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .company {
+      display: none;
+    }
+  
+    .phone-only {
+      display: block;
+    }
+  
+    .row-column {
+      flex-direction: column;
+    }
+  
+    .headline {
+      font-size: 2rem;
+    }
+  
+    .job-logo {
+      width: 120px;
+      height: 80px;
+    }
+  
+    .company-logo {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .skills {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .skill {
+      margin: 8px;
+    }
+  }
